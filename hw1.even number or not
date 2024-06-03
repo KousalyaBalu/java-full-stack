@@ -1,0 +1,22 @@
+package wiproday1;
+import java.util.Scanner;
+public class day1 {
+
+	static public void main(String ar[]) {
+		Scanner A=new Scanner(System.in);
+		
+		System.out.print("enter the number: ");
+		int num=A.nextInt();
+		
+		if(num%2==0) {
+			System.out.println("even number");
+		}else {
+			System.out.println("not an even number");
+		}
+		
+		
+		
+
+	}
+
+}
