@@ -1,0 +1,38 @@
+package wiproday1;
+import java.util.Scanner;
+public class day1 {
+
+	static public void main(String ar[]) {
+		Scanner A=new Scanner(System.in);
+		
+		System.out.print("enter the number: ");
+		int num=A.nextInt();
+		
+		String ipnum=Integer.toString(num);
+		int len = ipnum.length();
+		
+		if(len==4) 
+		{
+			int p1=num%1000;
+			int p2=p1%100;
+			int p3=p2/10;
+			System.out.println("the 2nd last digit =" + p3);
+		}
+		else if(len==3) 
+		{
+			int k2=num%100;
+			int k3=k2/10;
+			System.out.println("the 2nd last digit =" + k3);
+		}
+		else if(len==2) 
+		{
+			int t1=num/10;
+			System.out.println("the 2nd last digit =" + t1);
+		}
+			
+		}
+		
+		
+		
+
+	}
