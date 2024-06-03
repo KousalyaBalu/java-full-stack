@@ -1,0 +1,23 @@
+package wiproday1;
+import java.util.Scanner;
+public class day1 {
+
+	static public void main(String ar[]) {
+		Scanner A=new Scanner(System.in);
+		
+		System.out.print("enter the number1: ");
+		int num1=A.nextInt();
+		
+		System.out.print("enter the number2: ");
+		int num2=A.nextInt();
+		
+		int t1=num1%10;
+		int t2=num2%10;
+		int sum=t1+t2;
+		
+		System.out.println(sum);
+			
+		
+		}	
+
+	}
